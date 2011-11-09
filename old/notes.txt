@@ -1,0 +1,18 @@
+Notes:
+
+- bei Thread Crash -> Thread muss neu gestartet werden (durch try-except geklärt), Fehler an Client, ggf. um erneute Anfrage bitten 
+
+aktueller stand:
+	- Verzeichnisse klappen
+	- Datei-Auswahl und -Senden klappt
+	- 404er Fehler sollten alle klappen
+	- Queueing / Dequeueing klappt, aber zT sehr asynchron und daher Ladefehler!
+	- Service Thread hört auf Port 10104
+	
+todo:
+	- kompletter Service Thread
+	- Authentifikation bei Service-CMDs!
+	- ggf. Terminal minimal anpassen
+	- Statistik-Sachen (Connections,...)
+	- Logging Modes überarbeiten und einfügen (Log2File!)
+	- ServiceThread hört auf Port 10104
