@@ -1,0 +1,10 @@
+MiniServ by Frank Adler
+=======================
+
+MiniServ is a tiny little HTTP server written in Python 3.
+There currently are two versions.
+
+The old branch is a little outdated, works without threads.
+The current branch uses threads and all in all works more efficiently (but at the moment has some timing problems).
+
+To build/use it, you will need Python 3 together with WConio.
